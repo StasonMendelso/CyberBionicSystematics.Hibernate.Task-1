@@ -1,0 +1,11 @@
+SELECT * FROM employees LEFT JOIN employee_personal_details ON employees.id = employee_personal_details.person_id;
+INSERT INTO employees(name,telephone_number) VALUES('Jack','+3801212121212');
+INSERT INTO employees(name,telephone_number) VALUES('Jack','+3801212121212');
+INSERT INTO employees(name,telephone_number) VALUES('Jack','+3801212121212');
+INSERT INTO employees(name,telephone_number) VALUES('Jack','+3801212121212');
+SELECT * FROM employees LEFT JOIN employee_personal_details ON employees.id = employee_personal_details.person_id;
+UPDATE employees SET name = 'TestUpdatedName' WHERE name = 'Jack';
+SELECT * FROM employees LEFT JOIN employee_personal_details ON employees.id = employee_personal_details.person_id;
+DELETE FROM employees WHERE name = 'TestUpdatedName';
+SELECT * FROM employees LEFT JOIN employee_personal_details ON employees.id = employee_personal_details.person_id;
+DROP DATABASE some_name;
