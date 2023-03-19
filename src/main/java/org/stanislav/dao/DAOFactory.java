@@ -5,4 +5,5 @@ package org.stanislav.dao;
  */
 public abstract class DAOFactory {
     public abstract EmployeeDao createEmployeeDao();
+    public abstract QueryExecutor createQueryExecutor();
 }
