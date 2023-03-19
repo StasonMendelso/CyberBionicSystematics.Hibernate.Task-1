@@ -11,6 +11,10 @@ public enum MaritalStatus {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public static MaritalStatus getInstance(String maritalStatusName) {
         for (MaritalStatus maritalStatus : MaritalStatus.values()) {
             if (maritalStatusName.equals(maritalStatus.name)) {

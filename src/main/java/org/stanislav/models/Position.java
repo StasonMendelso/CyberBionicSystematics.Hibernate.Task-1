@@ -11,6 +11,10 @@ public enum Position {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public static Position getInstance(String positionName) {
         for (Position position : Position.values()) {
             if (position.name.equals(positionName)) {

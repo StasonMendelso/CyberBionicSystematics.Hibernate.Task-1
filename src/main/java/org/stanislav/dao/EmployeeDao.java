@@ -14,4 +14,6 @@ public interface EmployeeDao {
     List<Employee> readSingleEmployeesWithContactData();
 
     List<Employee> readManagersWithContactData();
+
+    boolean create(Employee employee);
 }
